@@ -1,0 +1,56 @@
+*,
+:focus{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333333;
+    background: #979595;
+
+}
+.container{
+    height: 350px;
+    width: 600px;
+    background-color: #f2f3f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 2.5rem 0 3.5rem;
+}
+
+.addition, .reset, .subtraction{
+  background-color: #ffffff;
+  padding: 2px 4px;
+  border-radius: 2px;
+  transform: scale(1.8);
+  box-shadow: -2px -2px 8px rgba(255, 225, 255, 0.8),
+   -2px -2px 12px rgba(255, 225, 255, 0.5),
+   inset -2px -2px 8px rgba(255, 225, 255, 0.1),
+    -2px -2px 8px rgba(0, 0, 0, 0.15);
+}
+.addition{
+    color: skyblue;
+}
+.reset{
+    margin: 0 3rem;
+    color: red;
+}
+.subtraction{
+    color: skyblue;
+}
